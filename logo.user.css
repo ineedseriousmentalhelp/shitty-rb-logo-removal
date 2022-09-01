@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           FUCKNEWROBLOXLOGO
+@namespace      roblox.com
+@version        1.0.0
+@description    gets rid of the SHITTY new roblox logo
+@author         shush
+==/UserStyle== */
+
+@-moz-document domain("www.roblox.com"), domain("web.roblox.com") {
+    .light-theme .icon-default-logo, .light-theme .icon-logo {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMjAiIGhlaWdodD0iNzgiPjxwYXRoIGQ9Ik02NC4xIDExLjRMNTIuOCA1NS4zbDQzLjkgMTEuM0wxMDggMjIuNyA2NC4xIDExLjR6bTE5LjUgMzNMNzUgNDIuMmwyLjItOC42IDguNiAyLjItMi4yIDguNnpNMzEuMiAxNi4zYzExLjQgMCAxNi41IDYuOCAxNi41IDEzLjYgMCA0LjItMS44IDcuNy01LjIgMTAgNC45IDUuNSA3LjggMTMgOC44IDIxLjdIMzAuNWMtLjktMTItMy40LTE2LjgtOC44LTE2Ljh2MTYuOEgxLjZWMTYuM2gyOS42em0tOS41IDE4LjFoLjVjMy43IDAgNS40LTEuMyA1LjQtNC4zIDAtMS45LTEtNC41LTQuNy00LjVoLTEuMnY4Ljh6bTExOS40LTE4LjFjMTQuNyAwIDE3LjYgNy40IDE3LjYgMTIuNyAwIDMuNy0xLjMgNy4xLTUuOSA5LjcgNS43IDMgNy4xIDYuNSA3LjEgMTAuNCAwIDctNC45IDEyLjUtMTUuNSAxMi41aC0zMS42VjE2LjNoMjguM3ptLTguMyAxOGguNWM0LjQgMCA2LTEuMiA2LTQuNCAwLTIuNS0xLjItNC40LTUuMy00LjRoLTEuMnY4Ljh6bTAgMTcuNGguNmM0LjYgMCA2LjQtMS4zIDYuNC00LjcgMC0zLTEuNC01LjEtNS42LTUuMWgtMS40djkuOHpNMTY2IDE2LjNoMjAuMXYzMy45aDE3LjZ2MTEuNEgxNjZWMTYuM3ptNDMuOCAwdjQ1LjNoNDUuM1YxNi4zaC00NS4zem0yNy4xIDI3LjFIMjI4di04LjhoOC44bC4xIDguOHptMjMuNi0yNy4xaDIxLjlsNi43IDguMyA2LjQtOC4zaDIxLjhsLTE3LjIgMjIuMyAxOC4zIDIzLjFoLTIybC03LjItOS02LjkgOWgtMjEuOGwxNy43LTIyLjktMTcuNy0yMi41eiIgZmlsbD0iIzM5M2IzZCIvPjwvc3ZnPg==);
+}
+.dark-theme .icon-default-logo, .dark-theme .icon-logo, .icon-default-logo, .icon-logo {
+    background-image: url(https://images.rbxcdn.com/1359485336f67d6e7be76b5e8ff4b72c-roblox_logo_11212016.svg);
+}
+}
